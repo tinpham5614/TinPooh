@@ -124,7 +124,9 @@ h3{
     margin: 20px;
     color:darkolivegreen;
 }
-
+.sub-form{
+    margin: 20px;
+}
 @media (max-width: 1028px) {
     .title-image{
         position: static;
