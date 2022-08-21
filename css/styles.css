@@ -1,24 +1,22 @@
 body{
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 #title {
     background-color:darkolivegreen;
     color: #fff;
 }
 h1 {
-    font-family: "Montserrat", sans-serif;
+    
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 h2{
-    font-family: "Montserrat";
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
 }
 h3{
-    font-family: "Montserrat";
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -38,7 +36,6 @@ h3{
     padding: 0 18px;
 }
 .nav-link{
-    font-family: "Montserrat";
     font-size: 1.2rem;
 }
 .download-button{
@@ -125,6 +122,9 @@ h3{
     color:darkolivegreen;
 }
 .sub-form{
+    margin: 20px;
+}
+.sub-form .btn{
     margin: 20px;
 }
 @media (max-width: 1028px) {
