@@ -48,7 +48,6 @@ h3{
 .title-image{
     width: 30%;
     position: absolute;
-    transform: rotate(340deg);
     right: 20%;
 }
 /* Feature CSS */
@@ -112,7 +111,20 @@ h3{
 }
 /* Footer CSS */
 #footer{
-    background: darkolivegreen;
     padding-bottom: 20px;
-    color: white;
+
+}
+.footer-icon{
+    margin: 20px;
+    color:darkolivegreen;
+}
+
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        width: 50%;
+    }
+    #title{
+        text-align: center;
+    }
 }
