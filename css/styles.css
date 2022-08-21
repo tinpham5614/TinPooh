@@ -11,8 +11,19 @@ h1 {
     line-height: 1.5;
     font-weight: 900;
 }
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 18%;
 }
 /* Nav Bar */
 .navbar{
@@ -35,25 +46,73 @@ h1 {
 }
 /* Title Image */
 .title-image{
-    width: 60%;
-    transform: rotate(45deg);
+    width: 30%;
+    position: absolute;
+    transform: rotate(340deg);
+    right: 20%;
 }
-#features{
-    margin: 10%;
-}
-#features h3{
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 1.5rem;
+/* Feature CSS */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
 }
 #features p{
     color: #8f8f8f;
 }
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
 #features .features-icon{
-    color: lightgreen;
-    padding: 3%;
+    color: green;
+    margin-bottom: 1rem;
 }
 #features .features-icon:hover{
-    color: darkgreen;
-    cursor: pointer;
+    color: darkolivegreen;
+}
+
+/* Testimonials CSS */
+
+#testimonials{
+    text-align: center;
+    background-color: darkolivegreen;
+    color: white;
+}
+.testimonial-img{
+    margin: 20px;
+    width: 15%;
+}
+.carousel-item{
+    padding: 7% 20%;
+}
+
+#press{
+    background-color: darkolivegreen;
+    text-align: center;
+    padding: 5%;
+}
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+/* Pricing section */
+#pricing{
+    padding: 5%;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+/* Call to Action CSS */
+#cta{
+    padding: 5% 10%;
+    background-color:darkolivegreen ;
+    color: white;
+}
+/* Footer CSS */
+#footer{
+    background: darkolivegreen;
+    padding-bottom: 20px;
+    color: white;
 }
