@@ -1,154 +1,163 @@
-body{
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 /* Heading CSS */
-.big-heading{
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
-.section-heading{
-    font-size: 3rem;
-    line-height: 1.5;
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 #title {
-    text-align: left;
+  text-align: left;
 }
-#title .container-fluid{
-    padding: 3% 15% 20%;
+#title .container-fluid {
+  padding: 3% 15% 20%;
 }
 /* Sections */
-.colored-section{
-    background-color:darkolivegreen;
-    color: #fff;
+.colored-section {
+  background-color: darkolivegreen;
+  color: #fff;
 }
-.white-section{
-    background-color: white;
+.white-section {
+  background-color: white;
 }
 /* Nav Bar */
-.navbar{
-    padding-bottom: 4.5rem;
+.navbar {
+  padding-bottom: 4.5rem;
+  filter: drop-shadow(8px 8px 10px black);
 }
 .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  filter: drop-shadow(8px 8px 10px black);
 }
-.nav-item{
-    padding: 0 18px;
+.nav-item {
+  padding: 0 18px;
 }
-.nav-link{
-    font-size: 1.2rem;
+.nav-link {
+  font-size: 1.2rem;
 }
-.download-button{
-    margin: 5% 3% 5% 0;
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 /* Title Image */
-.title-image{
-    width: 30%;
-    position: absolute;
-    right: 20%;
+.title-image {
+  width: 30%;
+  position: absolute;
+  right: 20%;
+  filter: drop-shadow(8px 8px 10px black);
 }
+
 /* Feature CSS */
 #features {
-    padding: 7% 15%;
-    position: relative;
-
+  padding: 7% 15%;
+  position: relative;
 }
-#features p{
-    color: #8f8f8f;
+#features p {
+  color: #8f8f8f;
 }
-.feature-title{
-    font-weight: bold;
-    font-size: 1.5rem;
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
-.feature-box{
-    padding: 5%;
+.feature-box {
+  padding: 5%;
 }
-#features .features-icon{
-    color: green;
-    margin-bottom: 1rem;
+#features .features-icon {
+  color: green;
+  margin-bottom: 1rem;
 }
-#features .features-icon:hover{
-    color: darkolivegreen;
+#features .features-icon:hover {
+  color: darkolivegreen;
 }
 
 /* Testimonials CSS */
 
-#testimonials{
-    background-color: darkolivegreen;
-    color: white;
+#testimonials {
+  background-color: darkolivegreen;
+  color: white;
 }
-.testimonial-img{
-    margin: 20px;
-    width: 15%;
+.testimonial-img {
+  margin: 20px;
+  width: 15%;
 }
-.carousel-item{
-    padding: 7% 20%;
+.carousel-item {
+  padding: 7% 20%;
 }
-.testimonial-text{
-    font-size: 3rem;
-    line-height: 1.5;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
-#press{
-    background-color: darkolivegreen;
-    padding: 5%;
+#press {
+  background-color: darkolivegreen;
+  padding: 5%;
 }
-.press-logo{
-    width: 10%;
-    margin: 20px 20px 50px;
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
 }
 /* Pricing section */
-#pricing{
-    padding: 5%;
+#pricing {
+  padding: 5%;
 }
-.pricing-col{
-    padding: 3% 2%;
+.pricing-col {
+  padding: 3% 2%;
+  filter: drop-shadow(8px 8px 10px black);
 }
-.price-text{
-    font-size: 3rem;
-    line-height: 2.5;
+.price-text {
+  font-size: 3rem;
+  line-height: 2.5;
 }
 /* Call to Action CSS */
-#cta{
-    padding: 5% 10%;
-    background-color:darkolivegreen ;
-    color: white;
+#cta {
+  padding: 5% 10%;
+  background-color: darkolivegreen;
+  color: white;
 }
-.cta-text h3{
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 2.5rem;
-    line-height: 1.5;
+.cta-text h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 /* Footer CSS */
-#footer{
-    padding-bottom: 20px;
-    color: #8f8f8f;
+#footer {
+  padding-bottom: 20px;
+  color: #8f8f8f;
 }
-.footer-icon{
-    margin: 20px;
-    color:darkolivegreen;
+.footer-icon {
+  margin: 20px;
+  color: darkolivegreen;
 }
-.sub-form{
-    margin: 20px;
+.sub-form {
+  margin: 20px;
 }
-.sub-form .btn{
-    margin: 20px;
+.sub-form .btn {
+  margin: 20px;
 }
 @media (max-width: 1028px) {
-    .title-image{
-        position: static;
-        width: 50%;
-    }
-    #title{
-        text-align: center;
-    }
+  .title-image {
+    position: static;
+    width: 50%;
+  }
+  #title {
+    text-align: center;
+  }
 }
